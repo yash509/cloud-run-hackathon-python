@@ -32,6 +32,7 @@ def index():
 def move():
     request.get_data()
     logger.info(request.json)
+    
     # TODO add your implementation here to replace the random response
     
     return moves[random.randrange(len(moves))]
